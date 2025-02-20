@@ -12,6 +12,6 @@ pool:
 steps:
 - checkout: self
 - script: |
-    git remote add github https://github.com/your-username/your-repo.git
+    git remote add github https://github.com/HendrikLinn/TestRepositoryAzureDevops.git
     git push github main
   displayName: 'Push changes to GitHub'
